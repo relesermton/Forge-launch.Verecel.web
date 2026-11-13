@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/([A-Za-z0-9_+\\-]+)\\.aspx", "destination": "/$1.html" }
+  ]
+}
